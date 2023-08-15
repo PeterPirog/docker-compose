@@ -1,0 +1,7 @@
+Proszę zwrócić uwagę, że ten plik konfiguracyjny wykorzystuje oficjalny obraz Moodle oraz MariaDB, ale może wymagać pewnych dostosowań w zależności od Twojego środowiska.
+
+    Upewnij się, że Docker i Docker Compose są zainstalowane na Twoim systemie.
+    Umieść powyższy plik docker-compose.yml w katalogu projektu.
+    Otwórz terminal i przejdź do katalogu, w którym znajduje się plik docker-compose.yml.
+    Uruchom usługi, wpisując następującą komendę: docker-compose up -d.
+    Moodle powinien być dostępny pod adresem http://localhost:8080.
